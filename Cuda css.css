@@ -1,0 +1,366 @@
+/* Globel Class */
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Titillium Web", sans-serif;
+}
+section {
+  padding: 100px 0px;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+.underline {
+  border-top: 5px solid rgba(0, 0, 0, 0.592);
+  width: 7%;
+  margin: 10px auto;
+}
+.global-heading {
+  font-size: 35px;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+.break {
+  width: 55%;
+  margin: auto;
+}
+/* Header Part */
+header {
+  width: 100%;
+  float: left;
+  background-color: #86509b;
+  color: #fff;
+}
+nav {
+  width: 100%;
+  float: left;
+  padding: 10px 0px;
+}
+.logo-part {
+  width: 50%;
+  float: left;
+}
+.manu-part {
+  width: 50%;
+  float: left;
+  padding: 10px 0px;
+  text-align: end;
+}
+.manu-part li {
+  display: inline-block;
+  margin: 0px 10px;
+  padding: 7px;
+  border-radius: 5px;
+}
+.manu-part li:hover {
+  background-color: rgba(0, 0, 0, 0.382);
+}
+.manu-part a {
+  font-size: 17px;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.hero-part {
+  width: 100%;
+  float: left;
+  margin: 150px 0px;
+  text-align: center;
+}
+.hero-part h1 {
+  font-size: 35px;
+  font-weight: 600;
+  width: 60%;
+  margin: auto;
+}
+.hero-part a button {
+  width: 15%;
+  padding: 10px;
+  margin-top: 20px;
+  color: #fff;
+  background-color: #eb7d4b;
+  transition: ease-in-out 0.08s;
+}
+.hero-part a button:hover {
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px #ff8c00;
+}
+/* service section */
+#service {
+  width: 100%;
+  float: left; 
+  background-color: #17c2a4;
+  color: #fff;
+  text-align: center;
+}
+.service-writing {
+  width: 100%;
+  float: left;
+}
+.service-box-part {
+  margin-top: 50px;
+  width: 100%;
+  float: left;
+  padding: 20px;
+}
+.service-box {
+  width: 25%;
+  float: left;
+  padding: 10px;
+}
+.service-box h2 {
+  margin-top: 50px;
+}
+.service-box img {
+  height: 120px;
+}
+#Team {
+  width: 100%;
+  float: left;
+  background-color: #e7f1f8;
+  color: #3c4761;
+  text-align: center;
+}
+.team-writing {
+  width: 100%;
+  float: left;
+}
+.team-box-part {
+  width: 100%;
+  float: left;
+  margin-top: 50px;
+  padding: 20px;
+}
+.team-box {
+  width: 25%;
+  float: left;
+  padding: 10px;
+}
+.team-box img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: auto;
+}
+.team-box p {
+  margin: 15px 0px;
+}
+.team-title {
+  color: #30bae7;
+  font-size: 16px;
+  font-weight: 400;
+}
+.team-icon {
+  width: 100%;
+  float: left;
+}
+.team-icon i {
+  background-color: #bdd1df;
+  color: #fff;
+  width: 36px;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 50px;
+}
+#skills {
+  width: 100%;
+  float: left;
+  background-color: #fff;
+  color: #3c4761;
+  text-align: center;
+}
+.skills-writting {
+  width: 100%;
+  float: left;
+}
+.skills-box {
+  width: 25%;
+  float: left;
+  padding: 10px;
+  margin-top: 50px;
+}
+/* portfolio */
+#portfolio {
+  width: 100%;
+  float: left;
+  background-color: #ffdd99;
+  color: #393939;
+  text-align: center;
+}
+.port-part {
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding: 10px 0px;
+}
+.port-part li {
+  display: inline;
+  margin: 0px 10px;
+  padding: 7px;
+  border-radius: 5px;
+  background-color: #ebc985;
+}
+.port-part li:hover {
+  background-color: #fff;
+}
+.port-part a {
+  font-size: 17px;
+  color: black;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.portfolio-box {
+  width: 50%;
+  float: left;
+  margin-top: 5%;
+}
+.port-button {
+  width: 100%;
+  float: left;
+  margin: 100px 0px;
+  text-align: center;
+}
+.port-button a button {
+  width: 15%;
+  padding: 10px;
+  margin-top: 20px;
+  color: #fff;
+  background-color: #17c2a4;
+  transition: ease-in-out 0.08s;
+}
+.port-button a button:hover {
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px #ff8c00;
+}
+#about{
+  width: 100%;
+  float: left;
+  background-color: #d74680;
+  color: #fff;
+  text-align: center;
+}
+.about-box{
+  width: 50%;
+  float: left;
+  padding: 50px 0px;
+  text-align: start;
+}
+.about-box p{
+  padding-top: 10px;
+  display: block;
+  font-style: italic;
+}
+.about-box h2{
+  padding: 10px 0px 0px 0px;
+}
+.about-box img{
+  float: left;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  padding: 10px;
+}
+#get-in{
+  width: 100%;
+  float: left;
+  background-color: #3c5499;
+  color: #fff;
+  text-align: center;
+}
+.get-writting{
+  width: 100%;
+  float: left;
+}
+.get-box{
+  width: 100%;
+  float: left;
+  margin-top: 50px;
+}
+.from-row{
+  width: 100%;
+  float: S;
+}
+.massage-row{}
+.form-name{
+  width: 50%;
+  float: left;
+  text-align: end;
+  padding: 10px;
+}
+.form-email{
+  width: 50%;
+  float: left;
+  text-align: start;
+  padding: 10px;
+}
+.form-message{
+  width: 100%;
+  float: left;
+}
+input::placeholder{
+  color: #fff;
+}
+textarea::placeholder{
+  color: #fff;
+}
+#f-name{
+  background-color: #273a71;
+  color: #fff;
+  width: 50%;
+  padding: 10px;
+}
+#email{
+  background-color: #273a71;
+  padding: 10px;
+  color: #fff;
+  width: 50%;
+}
+#message{
+  width: 50%;
+  height: 200px;
+  padding: 10px;
+  background-color: #273a71;
+  color: #fff;
+}
+.form-btn{
+  width: 15%;
+  padding: 10px;
+  margin-top: 20px;
+  color: #fff;
+  background-color: #30bae7;
+  transition: ease-in-out 0.8s;
+}
+.form-btn:hover{
+  border-radius: 5px;
+  box-shadow: 0px 0px 0px 4px #1d4b5b;
+}
+#footer{
+  width: 100%;
+  float: left;
+  background-color: #344b8e;
+  text-align: center;
+}
+.foot{
+  width: 100%;
+  float: left;
+  margin: 25px;
+}
+.foot li {
+  display: inline-block;
+  margin: 0px 10px;
+  padding: 7px;
+  border-radius: 5px;
+}
+.foot li:hover {
+  background-color: rgba(0, 0, 0, 0.382);
+}
+.foot a{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
